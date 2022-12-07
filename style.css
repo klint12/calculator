@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(9, 9, 27);
+}
+.container{
+  display: grid;
+  justify-content: center;
+  
+}
+.cal{
+    border-radius: 3%;
+   box-shadow: -2px -2px 2px rgb(16, 30, 83), 
+   inset 1px 3px 0px rgb(17, 25, 73),
+   inset -3px -3px 0px rgb(19, 28, 81);
+   height: 330px;
+}
+.head{
+    display: grid;
+    justify-content: center;
+}
+h1{
+    color: antiquewhite;
+}
+.input{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: 0.3s 0.3s;
+}
+#clearScreen{
+    background-color: chartreuse;
+}
+#solve{
+    background-color: darkgreen;
+}
+.screen{
+    height: 50px;
+    width: 200px;
+}
+.input:hover{
+    background-color: aqua;
+}

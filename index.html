@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head"><h1>Calculator App</h1></div>
+    
+    <div class="container">
+        <div class="cal">
+       
+    <table>
+        <tr>
+           <td><input type="text" class="screen" id="result" style="text-align:right;"></td> 
+           
+        </tr>
+      
+    </table>
+    
+    <div class="keys">
+     <input type="button" value="7" class="input" onClick="display('7')">
+     <input type="button" value="8" class="input" onClick="display('8')">
+     <input type="button" value="9" class="input" onClick="display('9')">
+     <input type="button" value="C" id="clearScreen" class="input" onClick="clearScreen('')"><br>
+     <input type="button" value="4" class="input" onClick="display('4')">
+     <input type="button" value="5" class="input" onClick="display('5')">
+     <input type="button" value="6" class="input" onClick="display('6')">
+     <input type="button" value="-" class="input" onClick="display('-')"><br>
+     <input type="button" value="1" class="input" onClick="display('1')">
+     <input type="button" value="2" class="input" onClick="display('2')">
+     <input type="button" value="3" class="input" onClick="display('3')">
+     <input type="button" value="+" class="input" onClick="display('+')"><br>
+     <input type="button" value="0" class="input" onClick="display('0')">
+     <input type="button" value="." class="input" onClick="display('.')">
+     <input type="button" value="/" class="input" onClick="display('/')">
+     <input type="button" value="x" class="input" onClick="display('*')"><br>
+     <input type="button" value="(" class="input" onClick="display('(')">
+     <input type="button" value=")" class="input" onClick="display(')')">
+     <input type="button" value="del" class="input" id="delValue" onClick="delValue()">
+     <input type="button" value="=" class="input" id="solve" onClick="answer()">
+         
+    
+       
+    </div>
+</div>
+</div>
+    <script src="file.css"></script>
+</body>
+</html>
